@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"&gt;>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Netlfix Signin</title>
+    <style>
+       body{
+         background-image: url("/public/netflixs/netflix\ banner.jpg");
+         background-position: cover;
+         background-repeat: no-repeat;
+         background-color: rgba(0, 0, 0, 0.9);
+         
+         justify-content: center;
+         align-items: center;
+         margin: 20px;
+       }
+       header{
+            display: flex;
+            justify-content: space-between;
+            padding:30px;
+            margin-bottom: 10px;
+        }
+        .brandname{
+            color:red;
+            font-weight: bold;
+            font-size: 29px;
+        }
+       form{
+        background-color: black;
+        height:500px;
+        width:370px;
+        border:2px solid gray;
+        box-shadow: 2px 2px 2px gray;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.9);
+        text-align: left;
+        align-items: center;
+        margin-left: 500px;
+        margin-bottom: 30px;
+       
+       }
+       .signinheading{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:30px;
+        margin-left: 30px;
+        text-shadow: 1px 1px 1px black;
+      }
+      .signbody{
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          height:200px ;
+       
+
+      }
+      .signbody input{
+        margin: 30px;
+      }
+      .signbody button{
+        margin-left: -14px;
+      }
+     .signcheckbox{
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin: 10px;
+     }
+     .check {
+         font-size: 14px;
+     }
+     .signbody button{
+        margin-bottom: 5px;
+     }
+     .signinfooter{
+        text-align: left;
+        color:gray;
+        margin-left: 20px;
+     }
+     .signinfooter span{
+        color:rgb(159, 159, 214);
+     }
+     .signinfooter h5{
+        font-size: 17px;
+     }
+     .signinfooter p{
+        font-size: 14px;
+     }
+
+     footer{
+        display:flex;
+        background-color: black;
+        justify-content: center;
+        align-items: left;
+        height:350px;
+        color:white;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: -20px;
+    }
+    .footerbox{
+   
+        text-align:left;
+        height:300px;
+        width:700px;
+       
+       
+       
+    }
+    .footerheading{
+       font-family: Arial, Helvetica, sans-serif;
+       margin-bottom: 30px;
+       margin-top: 50px;
+       margin-left: 10px;
+    }
+    .footerbody{
+        display: flex;
+        justify-content: space-between;
+        margin-left: -10px;
+    }
+    .footerbody li{
+        list-style: none;
+       
+    }
+   .footerbody span{
+    display: flex;
+    margin-right: 10px;
+   
+   }
+   .footerbody div{
+    font-size: 12px;
+    margin-bottom: 8px;
+   }
+   .footerend{
+     
+     display:flex;
+     width:160px;
+     margin-bottom: 10px;
+   }
+   .symbol span{
+    font-size: 23px;
+    border:2px solid white;
+   }
+   
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brandname">
+        <h1>NETFLIX</h1>
+        </div>
+    </header>
+   
+    <section>
+    <main>
+     <form>
+    <div class="signinheading">
+        <label class="form-label">Sign In</label>
+    </div>
+    <div class="signbody ">
+    <div>
+    <input type="text" class="form-control w-75" placeholder="Enter Email or phone number">
+    </div>
+    <div>
+    <input type="text" class="form-control w-75 mb-60" placeholder="Password">
+    </div>
+    <div >
+        <button class="btn btn-danger w-75">Sign IN</button>
+    </div>
+    </div>
+    <div class="signcheckbox">
+        <div class="check input-group">
+        <input type="checkbox" name="Remember me" checked class="form-check-input">Remember me
+        </div>
+        <div>
+        <details>
+            <summary>Needs?</summary>
+        </details>
+        </div>
+        </div>
+   
+
+    <div class="signinfooter">
+        <h5>New to Netflix?<span>Sign up now.</span></h5>
+        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.<span>Learn more.</span></p>
+    </div>
+
+ </div>
+ </form>
+ </main>
+ </section>
+
+ <footer>
+    <div class="footerbox">
+        <div class="footerheading">
+            <font face="arial" size="3" color="white">Questions? Call 000-800-040-1843</font>
+        </div>
+        <div class="footerbody">
+            <span class="footerbody-content">
+                <ul>
+                    <li><div>FAQ</div></li>
+                    <li><div>Investor Relations</div></li>
+                    <li><div>Privacy</div></li>
+                    <li><div>Speed Test</div></li>
+                </ul>
+             </span>
+             <span class="footerbody-content">
+                <ul>
+                    <li><div>Help center</div></li>
+                    <li><div>Jobs</div></li>
+                    <li><div>Cookies Preferences</div></li>
+                    <li><div>Legal Notices</div></li>
+                </ul>
+             </span>
+             <span class="footerbody-content">
+                <ul>
+                    <li><div>Account</div></li>
+                    <li><div>Ways to Watch</div></li>
+                    <li><div>Corporate Information</div></li>
+                    <li><div>Only on Netflix</div></li>
+                </ul>
+             </span>
+             <span class="footerbody-content">
+                <ul>
+                    <li><div>Media Center</div></li>
+                    <li><div>Terms Of Use</div></li>
+                    <li><div>Contact Us</div></li>
+                   
+                </ul>
+             </span>
+         </div>
+
+         <div class="footerend">
+            <div class="symbol input-group">
+            <span class="bi bi-globe "></span>
+            <select class="form-select">
+             <option>English</option>
+            <option>हिन्दी</option>
+            </select>
+            </div>
+            </div>
+
+        <p><font size="2" face="arial" color="white">Netflix India</font></p>
+   </div>
+ </footer>
+   
+</body>
+</html>
